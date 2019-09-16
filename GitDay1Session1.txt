@@ -1,0 +1,92 @@
+    1  ip a
+    2  ifup ens33
+    3  ip a
+    4  vim /etc/sysconfig/network-scripts/ifcfg-ens33 
+    5  vi /etc/sysconfig/network-scripts/ifcfg-ens33 
+    6  systemctl restart network
+    7  reboot
+    8  ip a
+    9  hostnamectl set-hostname machine1.test.com
+   10  ip a
+   11  hostname
+   12  hostname -i
+   13  cat /etc/resolv.conf 
+   14  exit
+   15  systemctl poweroff
+   16  ip a
+   17  ping google.com
+   18  init 0
+   19  yum install git
+   20  yum install tree
+   21  mkdir test
+   22  git init
+   23  cd test
+   24  git init
+   25  mkdir testGit
+   26  cd testGit
+   27  mkdir samplecode
+   28  cd samplecode/
+   29  git init
+   30  vi sample.doc
+   31  ls
+   32  vi hello.py
+   33  ls
+   34  cat hello.py
+   35  vi hello.py
+   36  cat sample.doc 
+   37  cat hello.py 
+   38  vi sample.doc 
+   39  cat sample.doc 
+   40  git add sample.doc 
+   41  git status
+   42  vi sample.doc 
+   43  git status
+   44  git commit -m "Initial commit"
+   45  git status
+   46  git log
+   47  git add sample.doc 
+   48  git status
+   49  git commit -m "Initial commit"
+   50  git log
+   51  git status
+   52  git log
+   53  git show 5a3a3ff523b075c2d0b7e65f0bcc6577d9f2ea87
+   54  vi test.doc
+   55  git add test.doc 
+   56  git status
+   57  git commit -m "Second commit"
+   58  git status
+   59  git log
+   60  git show log
+   61  help
+   62  git help
+   63  git show
+   64  git log --stats
+   65  git log --stat
+   66  git log --pretty
+   67  git log --pretty=format:"%h - %an, %ar : %s"
+   68  git --shortstat
+   69  git --name-status
+   70  git log --name-status
+   71  git log --name-stat
+   72  git log --name-only
+   73  git log --name-status
+   74  cd ..
+   75  git clone https://github.com/sharada91/FidelityTest.git
+   76  ls
+   77  cd FidelityTest/
+   78  ls
+   79  cat README.md 
+   80  vi test.txt
+   81  git add test.txt
+   82  git commit -m "Commit to Git hub"
+   83  git push origin master
+   84  vi test.txt 
+   85  git add test.txt 
+   86  gt commit -m "Second commit from Sharada"
+   87  git commit -m "Second commit from Sharada"
+   88  git push origin master
+   89  git pull
+   90  git config --global  user.name "sharada91"
+   91  git config --global user.email "a629468@fmr.com"
+   92  history >> GitDay1Session1.txt
